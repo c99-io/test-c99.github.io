@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Signika-Regular
+font link: https://fonts.google.com/specimen/Signika
+font author: Anna Giedryś
+font author site: http://ancymonic.com/
+Slogan Font: KaushanScript-Regular.ttf
+
+icon designer: Simon Child
+icon designer link: /Simon Child
+        
+{"bg-gradient-0":"#70243D","bg-gradient-1":"#C15767","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      
