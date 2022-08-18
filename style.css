@@ -1,16 +1,13 @@
 html {
     height: 100vh;
-    background-image: linear-gradient(to bottom right, #32092B, #CB3C61);
+    width: 100vw;
+    background-image: linear-gradient(115deg, #000,#111, #292a2d 40% 59%, #111, #000);
     color: #fff;
+    overflow: hidden;
 }
 
 body {
     background-color: transparent;
-}
-
-.content {
-    margin-top: 30vh;
-    text-align: center;
 }
 
 a {
@@ -28,10 +25,110 @@ h1 {
     font-size: 3.5rem;
 }
 
+/* Slogan */
+
+.slogan {
+    font-size: 4rem;
+    text-align: center;
+
+    font-family: 'Corben',cursive;
+    font-style: italic;
+    text-shadow: -10px 15px #1f1f1f;
+    margin-bottom: 15px;
+}
+
+/* Logo */
+.linktree {
+    
+    box-shadow: -10px 15px #1f1f1f;
+    background: linear-gradient(115deg, #ffffff4c,#eeeeee4c, #d6d5d2 45% 55%, #eeeeee4c, #ffffff4c);
+    border-radius: 10px;
+    padding: 20px;
+    
+    width: fit-content;
+    margin: 30vh auto 0 auto;
+    
+}
+
+.logo  {
+    align-items: center;
+}
+
+#logo {
+    width: 250px; 
+}
+
+/* Contatos */
+
+.contatos {
+    width: 100vw;
+}
+
+.contatos ul {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    
+    justify-content: center;
+    text-align: left;
+
+    margin: auto;
+    list-style: none;
+}
+
+.contatos a {
+    width: 100%;
+    padding: 0.7em;
+    border: solid 1px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1.7rem;
+    text-align: center;
+    
+}
+
+.contatos a:hover {
+    background-color: #ffffffcc;
+    color: black;
+    cursor: pointer;
+}
+
+.contatos li{
+    margin: 15px 10px 35px;
+    width: 200px;
+}
+
+.contatos li:hover {
+    scale: 110%;
+}
+
 @font-face {
     font-family: 'snicklesregular';
     src: url('snickles-webfont.woff2') format('woff2'),
         url('snickles-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+@media screen and (max-width: 800px) {
+    .linktree{
+        margin-top: 15vh;
+    }
+
+    html{
+        overflow: hidden;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 480) {
+    .linktree{
+        margin-top: 1vh;
+    }
+
+    html{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: auto;
+    }
 }
