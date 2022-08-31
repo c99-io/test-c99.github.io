@@ -90,16 +90,17 @@ h1 {
 .contatos a:hover {
     background-color: #ffffffcc;
     color: black;
-    cursor: pointer;
 }
 
 .contatos li{
-    margin: 15px 10px 35px;
-    width: 200px;
+    margin: 15px 15px 35px;
+    /* width: 200px; */
 }
 
 .contatos li:hover {
-    scale: 110%;
+    scale: 120%;
+    transition-duration: 15ms;
+    cursor: pointer;
 }
 
 @font-face {
@@ -112,18 +113,19 @@ h1 {
 
 @media screen and (max-width: 800px) {
     .linktree{
-        margin-top: 15vh;
+        margin-top: 0;
     }
 
     html{
-        overflow: hidden;
-        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 480) {
     .linktree{
-        margin-top: 1vh;
+        margin-top: 0;
     }
 
     html{
